@@ -6,9 +6,11 @@ ul {
     list-style: none;
 }
 
+/* Header section */
+
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: #fff;
@@ -23,4 +25,34 @@ ul {
     gap: 12px;
     margin-left: 500px;
     margin-right: 30px;
+}
+
+/* Hero section */
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+    gap: 20px;
+    padding: 50px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 24px;
+}
+
+.placeholder {
+    padding: 100px;
+    background-color: #666666;
+}
+
+.left-items {
+    max-width: 500px;
 }
