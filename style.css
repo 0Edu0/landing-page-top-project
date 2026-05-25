@@ -6,6 +6,12 @@ ul {
     list-style: none;
 }
 
+h2 {
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0;
+}
+
 /* Header section */
 
 .header {
@@ -55,4 +61,32 @@ button {
 
 .left-items {
     max-width: 500px;
+}
+
+/* Cards section */
+
+.cards {
+    display: flex;
+    gap: 80px;
+    margin: 0px 200px 0px 200px;
+}
+
+.card {
+    max-width: 0px;
+    min-height: 0px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    justify-self: center;
+    padding: 105px 105px;
+}
+
+.text {
+    margin: 10px 40px 0px 40px;
+    text-align: center;
+}
+
+.randomH3 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
 }
