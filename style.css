@@ -129,3 +129,13 @@ button {
     margin-left: 32px;
     border: 1px solid #ffffff;
 }
+
+/* Footer section */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #fff;
+    min-height: 80px;
+}
