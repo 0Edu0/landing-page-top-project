@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto';
+    margin: 0px;
 }
 
 ul {
@@ -40,7 +41,7 @@ h2 {
     background-color: #1F2937;
     color: #fff;
     gap: 20px;
-    padding: 50px;
+    padding: 50px 50px 120px 50px;
 }
 
 button {
@@ -65,7 +66,7 @@ button {
 .cards {
     display: flex;
     gap: 80px;
-    margin: 0px 200px 20px 200px;
+    margin: 0px 200px 60px 200px;
 }
 
 .card {
@@ -115,7 +116,7 @@ button {
     background-color: #3882F6;
     justify-content: center;
     align-items: center;
-    margin: 20px 500px 20px 500px;    
+    margin: 100px 500px 100px 500px;    
     border: 1px solid none;
     border-radius: 12px;
     color: #fff;
