@@ -89,7 +89,7 @@ button {
 }
 
 /* Quote section */
-.quoteContainer {
+.quote-container {
     display: flex;
     background-color: #E5E7EB;
     color: #1F2937;
@@ -107,4 +107,25 @@ button {
 .author {
     text-align: end;
     margin: 20px 200px 20px 200px;
+}
+
+/* Sign up section */
+.signup-banner-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 500px 20px 500px;    
+    border: 1px solid none;
+    border-radius: 12px;
+    color: #fff;
+}
+
+.banner-text {
+    margin-bottom: 16px;
+}
+
+.signup-button {
+    margin-left: 32px;
+    border: 1px solid #ffffff;
 }
